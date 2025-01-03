@@ -1,0 +1,20 @@
+{
+  "name": "vcm-repro",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "postcss": "^8.4.49",
+    "vcm-repro-demo": "workspace:*",
+    "vite": "^6.0.7",
+    "vite-css-modules": "^1.8.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "start-pkg": "yarn workspace vcm-repro-demo vite"
+  }
+}

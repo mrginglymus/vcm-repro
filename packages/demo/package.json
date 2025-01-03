@@ -1,0 +1,9 @@
+{
+    "name": "vcm-repro-demo",
+    "dependencies": {
+        "postcss": "^8.4.49",
+        "vcm-repro-styles": "workspace:*",
+        "vite": "^6.0.7",
+        "vite-css-modules": "^1.8.0"
+    }
+}
