@@ -1,4 +1,4 @@
-import classes from './styles.module.css';
+import classes from '../packages/styles';
 
 document.querySelector('#app').innerHTML = `
   <div class="${classes.root}">

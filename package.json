@@ -15,6 +15,10 @@
   },
   "scripts": {
     "start": "vite",
-    "start-pkg": "yarn workspace vcm-repro-demo vite"
+    "start-pkg": "yarn workspace vcm-repro-demo vite -c vite.config.js -d \"import-analysis,hmr,alias,load,transform\"",
+    "start-pkg-css": "yarn workspace vcm-repro-demo vite -c vite.css.config.js -d \"import-analysis,hmr,alias,load,transform\"",
+    "build": "vite build",
+    "build-pkg": "yarn workspace vcm-repro-demo vite -c vite.config.js build",
+    "build-pkg-css": "yarn workspace vcm-repro-demo vite -c vite.css.config.js build"
   }
 }

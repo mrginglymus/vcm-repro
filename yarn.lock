@@ -1480,10 +1480,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vcm-repro-demo@workspace:packages/demo"
   dependencies:
-    postcss: "npm:^8.4.49"
     vcm-repro-styles: "workspace:*"
     vite: "npm:^6.0.7"
-    vite-css-modules: "npm:^1.8.0"
+  peerDependencies:
+    postcss: ^8.4.49
+    vite-css-modules: ^1.8.0
   languageName: unknown
   linkType: soft
 
